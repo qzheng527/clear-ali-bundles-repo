@@ -1,0 +1,13 @@
+# [TITLE]: kernel-ali
+# [DESCRIPTION]: alibaba cloud kernel
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [MAINTAINER]: Qi Zheng <qi.zheng@intel.com>
+include(bootloader)
+console-autostart
+init-rdahead-extras
+irqbalance
+linux-ali
+linux-firmware
+linux-firmware-extras
+mcelog
